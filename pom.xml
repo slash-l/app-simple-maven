@@ -5,7 +5,7 @@
     <groupId>com.example</groupId>
     <artifactId>app-simple-maven</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.3</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -52,7 +52,7 @@
         <!--可以在浏览器中访问的scm地址-->
         <!--<url>https://github.com/slash-l/app-simple-maven</url>-->
         <!--设置tagName-->
-        <tag>v0.0.3-SNAPSHOT</tag>
+        <tag>v-release-0.0.1</tag>
     </scm>
 
     <distributionManagement>
