@@ -5,7 +5,7 @@
     <groupId>com.example</groupId>
     <artifactId>app-simple-maven</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.4-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
