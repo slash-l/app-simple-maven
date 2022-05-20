@@ -37,7 +37,7 @@
                         <!--是否自动为子模块分配父版本。如果设置为false，将提示用户输入每个子模块的版本。-->
                         <autoVersionSubmodules>true</autoVersionSubmodules>
                         <!--tag标签名-->
-                        <tagNameFormat>release-by-maven-${version}</tagNameFormat>
+                        <tagNameFormat>v${version}</tagNameFormat>
                     </configuration>
                 </plugin>
             </plugins>
