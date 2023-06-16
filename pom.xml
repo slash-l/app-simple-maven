@@ -5,7 +5,7 @@
     <groupId>com.example</groupId>
     <artifactId>app-simple-maven</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.2-SNAPSHOT</version>
+    <version>1.1.0</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -16,14 +16,19 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.70</version>
+            <version>1.2.24</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.apache.logging.log4j</groupId>-->
-<!--            <artifactId>log4j-core</artifactId>-->
-<!--            <version>2.9.1</version>-->
-<!--        </dependency>-->
-
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.9.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+            <version>2.0.5.RELEASE</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -59,23 +64,23 @@
         <repository>
             <id>central</id>
             <name>Enterprise SaaS-releases</name>
-            <url>https://soleng.jfrog.io/artifactory/slash-maven-virtual</url>
+            <url>https://demo.jfrogchina.com/artifactory/slash-maven-virtual</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>Enterprise SaaS-snapshots</name>
-            <url>https://soleng.jfrog.io/artifactory/slash-maven-virtual</url>
+            <url>https://demo.jfrogchina.com/artifactory/slash-maven-virtual</url>
         </snapshotRepository>
 
 <!--        <repository>-->
 <!--            <id>central</id>-->
-<!--            <name>rt-server-releases</name>-->
-<!--            <url>http://192.168.1.21:8082/artifactory/slash-maven-virtual</url>-->
+<!--            <name>slash-host11-releases</name>-->
+<!--            <url>http://192.168.2.11:8081/artifactory/slash-maven-virtual</url>-->
 <!--        </repository>-->
 <!--        <snapshotRepository>-->
 <!--            <id>snapshots</id>-->
-<!--            <name>rt-server-snapshots</name>-->
-<!--            <url>http://192.168.1.21:8082/artifactory/slash-maven-virtual</url>-->
+<!--            <name>slash-host11-snapshots</name>-->
+<!--            <url>http://192.168.2.11:8081/artifactory/slash-maven-virtual</url>-->
 <!--        </snapshotRepository>-->
 
     </distributionManagement>
