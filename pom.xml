@@ -5,7 +5,7 @@
     <groupId>com.example</groupId>
     <artifactId>app-simple-maven</artifactId>
     <packaging>jar</packaging>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -75,12 +75,12 @@
 <!--        <repository>-->
 <!--            <id>central</id>-->
 <!--            <name>slash-host11-releases</name>-->
-<!--            <url>http://192.168.2.11:8081/artifactory/slash-maven-virtual</url>-->
+<!--            <url>http://60.205.112.114:8084/repository/slash-nexus-maven-host</url>-->
 <!--        </repository>-->
 <!--        <snapshotRepository>-->
 <!--            <id>snapshots</id>-->
 <!--            <name>slash-host11-snapshots</name>-->
-<!--            <url>http://192.168.2.11:8081/artifactory/slash-maven-virtual</url>-->
+<!--            <url>http://60.205.112.114:8084/repository/slash-nexus-maven-host</url>-->
 <!--        </snapshotRepository>-->
 
     </distributionManagement>

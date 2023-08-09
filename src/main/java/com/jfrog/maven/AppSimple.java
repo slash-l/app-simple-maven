@@ -20,4 +20,9 @@ public class AppSimple {
 
         System.out.println(jsonObject);
     }
+
+    public String sayHello(String input){
+        String str = "Hello " + input + "!";
+        return str;
+    }
 }
