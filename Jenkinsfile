@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Clone') {
             steps {
-                git branch: 'develop', url: "https://github.com/slash-l/app-simple-maven.git"
+                git branch: 'develop', url: "git@github.com:slash-l/app-simple-maven.git"
             }
         }
 
