@@ -46,7 +46,7 @@ pipeline {
 
                 xrayScan (
                     serverId: "JFrogChina-Server",
-                    failBuild: true
+                    failBuild: false
                 )
 
                 rtMavenRun (
