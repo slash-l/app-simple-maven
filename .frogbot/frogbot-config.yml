@@ -1,0 +1,12 @@
+- params:
+    git:
+      repoName: app-simple-maven
+      branches:
+        - master
+    scan:
+      projects:
+        - workingDirs:
+            - .
+
+
+
