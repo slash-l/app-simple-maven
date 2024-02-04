@@ -1,0 +1,10 @@
+version: 1
+type: maven
+resolver:
+  serverId: JFrogChina-Server
+  snapshotRepo: slash-maven-virtual
+  releaseRepo: slash-maven-virtual
+deployer:
+  serverId: JFrogChina-Server
+  snapshotRepo: slash-maven-virtual
+  releaseRepo: slash-maven-virtual
