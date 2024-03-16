@@ -40,7 +40,7 @@ jobs:
 
           # [Mandatory]
           # The name of the branch on which Frogbot will perform the scan
-          JF_GIT_BASE_BRANCH: ${{ matrix.branch }}
+          JF_GIT_BASE_BRANCH: "master"
 
           # [Optional, default: https://api.github.com]
           # API endpoint to GitHub
