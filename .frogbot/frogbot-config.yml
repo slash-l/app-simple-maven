@@ -3,6 +3,7 @@
       repoName: app-simple-maven
       branches:
         - develop
+        - main
     scan:
       projects:
         - workingDirs:
