@@ -1,16 +1,17 @@
 package com.jfrog.maven;
 
 import com.alibaba.fastjson.JSON;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /**
  * Hello world!
  */
 public class AppSimple {
-    public static void main(String[] args) {
-        new AppSimple();
 
-        Logger logger = Logger.class(AppSimple.class);
+    private static final Logger logger = LogManager.getLogger(AppSimple.class);
+
+    public static void main(String[] args) {
 
         logger.info("Hello World!");
         logger.info("Hello JFrog artifactory！");
@@ -22,6 +23,7 @@ public class AppSimple {
         JSON jsonObject = JSON.parseObject(payload);
 
         logger.info(jsonObject);
+        logger.info("code end");
     }
 
     public String sayHello(String input){
