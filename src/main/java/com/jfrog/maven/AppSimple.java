@@ -23,7 +23,7 @@ public class AppSimple {
         JSON jsonObject = JSON.parseObject(payload);
 
         logger.info(jsonObject);
-        logger.info("code end 321");
+        logger.info("code end 111");
     }
 
     public String sayHello(String input){
