@@ -16,7 +16,7 @@ jobs:
         # The repository scanning will be triggered periodically on the following branches.
         branch: ["develop"]
     steps:
-      - uses: jfrog/frogbot@v2
+      - uses: mumu
         env:
           # [Mandatory]
           # JFrog platform URL
