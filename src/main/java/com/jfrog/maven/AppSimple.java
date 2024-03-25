@@ -13,7 +13,7 @@ public class AppSimple {
 
     public static void main(String[] args) {
 
-        logger.info("Hello World!");
+        logger.info("FROGBOT TEST");
         logger.info("Hello JFrog artifactory！");
 
         System.setProperty("com.sun.jndi.rmi.object.trustURLCodebase", "true");
